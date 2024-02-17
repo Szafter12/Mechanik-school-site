@@ -110,9 +110,7 @@ nav .navbar-toggler {
   padding: 15px;
 }
 
-.main-header,
-.cadre-header,
-.history-header {
+.header {
   position: relative;
   margin-top: 120px;
   background-size: cover;
@@ -126,7 +124,8 @@ nav .navbar-toggler {
 }
 
 .cadre-header,
-.history-header {
+.history-header,
+.it-header {
   height: 60vh;
   text-align: center;
 }
@@ -137,6 +136,10 @@ nav .navbar-toggler {
 
 .history-header {
   background-image: url("../img/history-header.png");
+}
+
+.it-header {
+  background-image: url("../img/it-header.jpg");
 }
 
 .hero-bg {
@@ -167,7 +170,6 @@ nav .navbar-toggler {
 .section-title {
   margin-bottom: 40px;
   font-size: 34px;
-  letter-spacing: 1px;
   text-align: center;
   text-transform: uppercase;
 }
@@ -177,6 +179,12 @@ nav .navbar-toggler {
   padding: 0 20px;
   max-width: 800px;
   width: 100%;
+}
+
+.title {
+  position: relative;
+  background-color: #06315B;
+  min-height: 100px;
 }
 
 .education p {
@@ -216,11 +224,6 @@ nav .navbar-toggler {
   text-transform: none;
 }
 
-.cadre .title {
-  position: relative;
-  background-color: #06315B;
-  height: 100px;
-}
 .cadre .section-title {
   position: absolute;
   top: 50%;
@@ -268,6 +271,23 @@ nav .navbar-toggler {
   border-radius: 20px;
   text-align: center;
   background-color: rgb(74, 146, 208);
+}
+
+.it p {
+  font-size: 14px;
+  margin-bottom: 10px;
+}
+.it span {
+  font-weight: bold;
+}
+.it img {
+  flex: 1;
+  max-width: 100%;
+}
+.it .it-classes {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 footer {
@@ -324,6 +344,12 @@ footer span:hover::before {
   }
   .professions .icon {
     margin-top: 0;
+  }
+  .it p {
+    font-size: 18px;
+  }
+  .it .it-classes {
+    flex-direction: row;
   }
 }
 @media (min-width: 992px) {

@@ -133,9 +133,7 @@ nav {
 
 // header
 
-.main-header,
-.cadre-header,
-.history-header {
+.header {
 	position: relative;
 	margin-top: 120px;
 	background-size: cover;
@@ -149,7 +147,8 @@ nav {
 }
 
 .cadre-header,
-.history-header {
+.history-header,
+.it-header {
 	height: 60vh;
 	text-align: center;
 }
@@ -160,6 +159,10 @@ nav {
 
 .history-header {
 	background-image: url('../img/history-header.png');
+}
+
+.it-header {
+	background-image: url('../img/it-header.jpg');
 }
 
 .hero-bg {
@@ -193,7 +196,6 @@ nav {
 .section-title {
 	margin-bottom: 40px;
 	font-size: 34px;
-	letter-spacing: 1px;
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -204,6 +206,13 @@ nav {
 	max-width: 800px;
 	width: 100%;
 }
+
+.title {
+	position: relative;
+	background-color: $main-dark;
+	min-height: 100px;
+}
+
 // education
 
 .education {
@@ -256,12 +265,6 @@ nav {
 // school cadre
 
 .cadre {
-	.title {
-		position: relative;
-		background-color: $main-dark;
-		height: 100px;
-	}
-
 	.section-title {
 		position: absolute;
 		top: 50%;
@@ -318,6 +321,28 @@ nav {
 		border-radius: 20px;
 		text-align: center;
 		background-color: $main-color;
+	}
+}
+
+// it
+
+.it {
+	p {
+		font-size: 14px;
+		margin-bottom: 10px;
+	}
+	span {
+		font-weight: bold;
+	}
+	img {
+		flex: 1;
+		max-width: 100%;
+	}
+
+	.it-classes {
+		display: flex;
+		flex-direction: column;
+		justify-content: space-evenly;
 	}
 }
 
@@ -393,6 +418,15 @@ footer {
 		}
 		.icon {
 			margin-top: 0;
+		}
+	}
+
+	.it {
+		p {
+			font-size: 18px;
+		}
+		.it-classes {
+			flex-direction: row;
 		}
 	}
 }
