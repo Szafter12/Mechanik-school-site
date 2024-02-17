@@ -148,7 +148,8 @@ nav {
 
 .cadre-header,
 .history-header,
-.it-header {
+.it-header,
+.programmer-header {
 	height: 60vh;
 	text-align: center;
 }
@@ -163,6 +164,10 @@ nav {
 
 .it-header {
 	background-image: url('../img/it-header.jpg');
+}
+
+.programmer-header {
+	background-image: url('../img/programming-header.jpg');
 }
 
 .hero-bg {
@@ -334,15 +339,22 @@ nav {
 	span {
 		font-weight: bold;
 	}
+
+	.photos {
+		display: grid;
+		grid-template-columns: repeat(3, 1fr);
+
+	}
+	
 	img {
-		flex: 1;
-		max-width: 100%;
+		width: 100%;
+		height: auto;
 	}
 
 	.it-classes {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-evenly;
+		justify-content: space-between;
 	}
 }
 
@@ -427,6 +439,10 @@ footer {
 		}
 		.it-classes {
 			flex-direction: row;
+
+			p {
+				flex: 1;
+			}
 		}
 	}
 }
