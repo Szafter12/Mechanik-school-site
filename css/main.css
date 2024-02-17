@@ -99,11 +99,8 @@ nav .navbar-nav:last-child .nav-item:hover .dropdown li {
     transform: translateY(0);
   }
 }
-nav .navbar-nav:last-child .nav-item:hover .dropdown li:nth-child(1) {
-  animation-delay: 0.2s;
-}
 nav .navbar-nav:last-child .nav-item:hover .dropdown li:nth-child(2) {
-  animation-delay: 0.4s;
+  animation-delay: 0.2s;
 }
 nav .navbar-toggler {
   background: none;
