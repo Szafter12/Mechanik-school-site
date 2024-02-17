@@ -278,7 +278,7 @@ footer {
 footer p {
   margin: 0;
 }
-footer a {
+footer span {
   position: relative;
   padding: 0 10px;
   font-size: 18px;
@@ -288,20 +288,21 @@ footer a {
   transition: color 0.3s;
   z-index: 0;
 }
-footer a::before {
+footer span::before {
   content: "";
   position: absolute;
   left: 0;
+  bottom: 0;
   width: 0;
   height: 100%;
   background-color: rgb(74, 146, 208);
   transition: width 0.4s;
   z-index: -1;
 }
-footer a:hover {
+footer span:hover {
   color: #d0884a;
 }
-footer a:hover::before {
+footer span:hover::before {
   width: 100%;
 }
 

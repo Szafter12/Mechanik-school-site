@@ -333,7 +333,7 @@ footer {
 		margin: 0;
 	}
 
-	a {
+	span {
 		position: relative;
 		padding: 0 10px;
 		font-size: 18px;
@@ -344,10 +344,11 @@ footer {
 		z-index: 0;
 	}
 
-	a::before {
+	span::before {
 		content: '';
 		position: absolute;
 		left: 0;
+		bottom: 0;
 		width: 0;
 		height: 100%;
 		background-color: $main-color;
@@ -355,11 +356,11 @@ footer {
 		z-index: -1;
 	}
 
-	a:hover {
+	span:hover {
 		color: #d0884a;
 	}
 
-	a:hover::before {
+	span:hover::before {
 		width: 100%;
 	}
 }
