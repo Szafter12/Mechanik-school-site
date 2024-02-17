@@ -234,12 +234,11 @@ nav .navbar-toggler {
   justify-content: space-around;
   align-items: center;
   padding: 20px;
-  width: 100%;
 }
 .cadre .id-card {
   padding: 0;
   width: 350px;
-  border-radius: 10px;
+  border-radius: 15px;
   overflow: hidden;
 }
 .cadre .id-card:first-child {
