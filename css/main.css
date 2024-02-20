@@ -290,10 +290,15 @@ nav .navbar-toggler {
 .it span {
 	font-weight: bold;
 }
+
+.photos {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+}
+
 .it img {
 	width: 100%;
 	height: auto;
-	max-height: 500px;
 }
 .it .it-classes {
 	display: flex;
