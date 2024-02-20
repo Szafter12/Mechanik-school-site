@@ -170,6 +170,10 @@ nav {
 	background-image: url('../img/programming-header.jpg');
 }
 
+.patron-header {
+	background-image: url('../img/patron-header.jpg');
+}
+
 .hero-bg {
 	position: absolute;
 	top: 0;
@@ -343,9 +347,8 @@ nav {
 	.photos {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
-
 	}
-	
+
 	img {
 		width: 100%;
 		height: auto;
