@@ -26,14 +26,15 @@ nav {
 
 	.logo {
 		width: 70vw;
+		transition: width 0.3s;
 	}
 
 	.logo-hide {
-		display: none;
+		width: 40vw;
 	}
 
 	.navbar-collapse {
-		justify-content: center;
+		justify-content: flex-end;
 		display: inline-block;
 	}
 
@@ -135,7 +136,7 @@ nav {
 
 .header {
 	position: relative;
-	margin-top: 120px;
+	margin-top: 100px;
 	background-size: cover;
 	background-position: center;
 	z-index: 0;
@@ -406,16 +407,22 @@ footer {
 @media (min-width: 576px) {
 	nav {
 		.logo {
-			width: 300px;
+			width: 400px;
 		}
-	}
 
-	nav {
+		.logo-hide {
+			width: 200px;
+		}
+
 		.navbar-nav .nav-link.active,
 		.navbar-nav .nav-link.show,
 		.nav-link {
 			font-size: 18px;
 		}
+	}
+
+	.header {
+		margin-top: 170px;
 	}
 }
 

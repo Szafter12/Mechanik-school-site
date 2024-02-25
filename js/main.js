@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-	const logo = document.querySelector('img')
+	const logo = document.querySelector('.logo')
 
 
 	function logoHide() {
