@@ -16,8 +16,6 @@ the website was made on the basis of the original school website, but I modelled
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-
-
 ### Built With
 
 HTML
@@ -27,13 +25,8 @@ SCSS
 JavaScript
 <br>
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-
 ## Contact
 
 Jakub Pachut - jakubpachut@gmail.com
 
 Project Link: https://github.com/Szafter12/Mechanik-school-site
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
