@@ -13,21 +13,14 @@
   <ol>
     <li>
       <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
     </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-    </li>
-    <li><a href="#usage">Usage</a></li>
     <li><a href="#contact">Contact</a></li>
   </ol>
 </details>
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](img/school-site.png)
+<img src='img/school-site.png'>
 
 the website was made on the basis of the original school website, but I modelled only the appearance of the code I wrote myself and implemented everything myself 
 
