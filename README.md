@@ -1,11 +1,4 @@
-<a name="readme-top">https://szafter12.github.io/Mechanik-school-site/</a>
-
-<br />
 <div align="center">
-  <a href="https://szafter12.github.io/Mechanik-school-site/">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-
 <h3 align="center">Mechanik school site</h3>
 
   <p align="center">
@@ -34,7 +27,7 @@
 
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](./img/school-site.png)
+[![Product Name Screen Shot][product-screenshot]](img/school-site.png)
 
 the website was made on the basis of the original school website, but I modelled only the appearance of the code I wrote myself and implemented everything myself 
 
