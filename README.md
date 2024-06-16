@@ -14,8 +14,6 @@
 
 the website was made on the basis of the original school website, but I modelled only the appearance of the code. I wrote myself and implemented everything myself.  This is a project, made as an extra activity in school. 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 ### Built With
 
 HTML
