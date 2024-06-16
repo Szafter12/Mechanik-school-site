@@ -1,5 +1,5 @@
 <div align="center">
-<h3 align="center">Mechanik school site</h3>
+<h3 align="center">Mechanik Limanowa school site</h3>
 
   <p align="center">
    This is a project, made as an extra activity in school. The project is an example of my school's website. 
@@ -7,16 +7,6 @@
     <a href="https://szafter12.github.io/Mechanik-school-site/">View Demo</a>
   </p>
 </div>
-
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-    </li>
-    <li><a href="#contact">Contact</a></li>
-  </ol>
-</details>
 
 ## About The Project
 
